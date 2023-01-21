@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+
+        div {
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+        }
+
+        span {
+            color: red;
+        }
+
+        label {
+            color: white;
+            padding-left: 50px;
+        }
+
+        input {
+            float: right;
+    
+        }
+
+        h6 {
+            color: white;
+            margin-left: 220px;
+        }
+
+        h2,
+        h4 {
+            color: white;
+            text-align: center;
+        }
+
+        select {
+            margin-left: 40px;
+        }
+        button{
+            background-color: brown;
+            color: white;
+            padding: 5px;
+            margin-left: 150px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Appication</h2>
+    <h4>Please fill out the appication from carefully</h4>
+    <form>
+        <div>
+
+            <label for="">Full Name<span>*</span></label>
+            <input type="text"> <br><br>
+            <label for="">Father Name<span>*</span></label>
+            <input type="text"> <br><br>
+            <label for="">Mother Name<span>*</span></label>
+            <input type="text"> <br><br>
+            <label for="">DOB<span>*</span></label>
+            <input type="date" style="width: 175px;"> <br><br>
+            <label for="">E-Mail Address<span>*</span></label>
+            <input type="email"> <br><br>
+            <label>Gender</label><span>*</span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;
+            <select style="width: 170px" class="selesct">
+                <option value=""></option>
+                <option>Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+            </select><br><br>
+            <label for="">Mobile Number<span>*</span></label>
+            <input type="number"> <br><br>
+            <label for="">Full Name<span>*</span></label>
+            <input type="text"> <br><br>
+            <label>Address</label><span>*</span>
+            <input type="text" style="width: 80px;"><input type="text" style="width: 80px;">
+            <br>
+            <h6>Street Address &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Street Line 2</h6>
+            <input type="text" style="width: 80px;"><input type="text" style="width: 80px;">
+            <br>
+            <h6>City &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; State/Provisce</h6>
+            <input type="text" style="width: 80px;"><input type="text" style="width: 80px;">
+            <br>
+            <h6>Posial /Zip Code &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Country</h6>
+
+            <label for="">Course name<span>*</span></label>
+            <input type="text"> <br><br>
+            <label>Type of Education</label><span>*</span>
+            <select style="width: 170px">
+                <option value=""></option>
+                <option>MCA</option>
+                <option value="">BCA</option>
+            </select>
+            <br><br>
+            <label for="">Course Descriptions</label><br>
+            <textarea name="" id="" cols="40" rows="5" style="margin-left: 50px;"></textarea>
+            <br><br>
+            <button>APPLY NOW</button>
+        </div>
+    </form>
+</body>
+
+</html>
